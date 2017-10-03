@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Inshorts</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- Config -->
+    <string name="content_authority">in.sdev.app.inshorts.news</string>
+
+    <!-- -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="category_all">All News</string>
+    <string name="category_b">Business</string>
+    <string name="category_e">Entertainment</string>
+    <string name="category_m">Health</string>
+    <string name="category_t">Science and Technology</string>
+
+    <string name="title_favourite">Favourite</string>
+    <string name="user_bookmarks">My Bookmarks</string>
+    <string name="user_share">Share</string>
+
+    <!-- News Feed format -->
+    <string name="format_bullet_with_time_ago" formatted="false"><![CDATA[\u2022 %s ]]></string>
+    <string name="format_share_subject_for_link">Check out this link on Inshorts!</string>
+
+    <!-- Preferences -->
+    <string name="pref_news_category_default"></string>
+    <string name="pref_news_publisher_default"></string>
+
+
+    <!-- Firebase Analytics -->
+    <string name="tracker_viewbookmarks">View My Bookmarks - %1$s</string>
+    <string name="track_click">Click</string>
+    <string name="track_clear">News Filter Clear</string>
+    <string name="tracker_feed_filter">News Filter</string>
+    <string name="track_remove_bookmark">Remove from Bookmark</string>
+    <string name="track_feed_id_content"><![CDATA[Feed id-%1$s Content-%2$s]]></string>
+    <string name="track_add_bookmark">Save Bookmark</string>
+
+    <!-- Empty -->
+    <string name="es_no_internet_connection">Oops.. No Internet Connection</string>
+    <string name="error_no_internet_connection">No Internet Connection</string>
+    <string name="es_error_occurred">Error Occurred. Please try again</string>
+    <string name="no_posts">No updates.</string>
+
+    <!-- Date Utility -->
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+</resources>

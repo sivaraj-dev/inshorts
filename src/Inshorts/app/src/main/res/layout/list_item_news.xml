@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_sm">
+
+        <TextView
+            android:id="@+id/tv_news_publisher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/colorAccent"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textSize="@dimen/text_sm"
+            tools:text="tv_news_publisher" />
+
+        <TextView
+            android:id="@+id/tv_news_timestamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_news_publisher"
+            android:layout_toLeftOf="@+id/action_more"
+            android:paddingLeft="@dimen/padding_xs"
+            android:textColor="@color/colorBlack55"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textSize="@dimen/text_sm"
+            tools:text="tv_news_timestamp" />
+
+        <ImageView
+            android:id="@+id/action_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="@dimen/padding_md"
+            android:src="@drawable/ic_user_share"
+            android:visibility="invisible"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_news_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/text_lg"
+        android:paddingLeft="@dimen/padding_sm"
+        android:paddingRight="@dimen/padding_sm"
+        android:paddingBottom="@dimen/padding_md"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        android:paddingBottom="@dimen/padding_sm"/>
+</LinearLayout>

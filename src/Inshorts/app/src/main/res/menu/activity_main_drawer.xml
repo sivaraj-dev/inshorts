@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all_news"
+            android:icon="@drawable/ic_category_all"
+            android:title="@string/category_all" />
+
+        <item
+            android:id="@+id/nav_category_b"
+            android:icon="@drawable/ic_category_b"
+            android:title="@string/category_b" />
+
+        <item
+            android:id="@+id/nav_category_t"
+            android:icon="@drawable/ic_category_t"
+            android:title="@string/category_t" />
+        <item
+            android:id="@+id/nav_category_e"
+            android:icon="@drawable/ic_category_e"
+            android:title="@string/category_e" />
+
+
+        <item
+            android:id="@+id/nav_category_m"
+            android:icon="@drawable/ic_category_m"
+            android:title="@string/category_m" />
+
+
+    </group>
+
+    <item android:title="@string/title_favourite">
+        <menu>
+
+
+        </menu>
+    </item>
+</menu>
