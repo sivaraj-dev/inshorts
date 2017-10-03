@@ -26,7 +26,7 @@ Check out the wireframe in [Adobe XD](http://sdev.in/inshorts)
 ## Screens
 
 ### News Feed
-![News Feed](https://github.com/sivaraj-dev/inshorts/blob/master/screenshots/1.News%20Feed.png?raw=true =100x)
+![News Feed](https://github.com/sivaraj-dev/inshorts/blob/master/screenshots/1.News%20Feed.png?raw=true)
 
 ### Filter by category
 ![Filter by category](https://github.com/sivaraj-dev/inshorts/blob/master/screenshots/2.Filter%20By%20Category.png?raw=true)
