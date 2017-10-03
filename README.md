@@ -1,3 +1,4 @@
+### 12 hour Challenge
 ### Problem Statement 
 Develop a pseudo Mobile application (Android) which should list and open best out linked news articles from the app.
 
@@ -22,7 +23,22 @@ Check out the wireframe in [Adobe XD](http://sdev.in/inshorts)
   3. By passing the orderby in cursor can do sorting (News Fragment)
   
 
-Challenge Link [Inshorts Android App Development Hiring Challenge](https://www.hackerearth.com/challenge/hiring/inshorts-android-app-development-hiring-challenge/)
+## Screens
+
+### News Feed
+![News Feed](https://github.com/sivaraj-dev/inshorts/blob/master/screenshots/1.News%20Feed.png?raw=true =100x)
+
+### Filter by category
+![Filter by category](https://github.com/sivaraj-dev/inshorts/blob/master/screenshots/2.Filter%20By%20Category.png?raw=true)
+
+### Browser window with share option – News Article
+![Browser window with share option – News Article](https://github.com/sivaraj-dev/inshorts/blob/master/screenshots/3.News%20Webview.png?raw=true)
+
+### Navigation Menu - To add more option like Bookmarks, Share app,..
+![Navigation Menu - To add more option like Bookmarks, Share app,..](https://github.com/sivaraj-dev/inshorts/blob/master/screenshots/4.Navigation%20Menu(To%20add%20more%20option).png?raw=true)
+
+
+> Challenge Link [Inshorts Android App Development Hiring Challenge](https://www.hackerearth.com/challenge/hiring/inshorts-android-app-development-hiring-challenge/)
 
 ### Happy Coding
 ### 😃 
